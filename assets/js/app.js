@@ -1,10 +1,12 @@
 var  nav = document.getElementById('nav');
 	window.onscroll = function () {
-		if (window.pageYOffset > 600){
-			nav.style.background = "grey";
+		if (window.pageYOffset > 200){
+			nav.style.background = "black";
+            nav.style.marginTop ="0";
 		}
 		else{
 			nav.style.background = "transparent";
+            nav.style.marginTop = "30px";
 		}
 	}
 

@@ -23,7 +23,7 @@
             <a class="nav-link" href="#about">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="">Projects</a>
+            <a class="nav-link" href="#projects">Projects</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="">Contact</a>
@@ -41,26 +41,150 @@
         <div class="down-arrow"><a href="#about"><img src="Resources/Images/down-arrow.png"></a></div>
       </div>
     </div>
-    <div class="container-fluid" id="about">
+    <div class="jumbotron jumbotron-fluid" id="about">
+    <div class="container-fluid">
       <div class="row" >
         <div class="col-md-3">
-          <img src="Resources/Images/profile1.jpg" width="200px" class="rounded mx-auto d-block" id="profile" alt="Farhad Omidvar">
+          <div class="card">
+            <img src="Resources/Images/profile1.jpg" width="200px" class="rounded mx-auto d-block" id="profile" alt="Farhad Omidvar">
+          </div>
         </div>
         <div class="col-md-6">
-          <blockquote>
-            <h1>About Me</h1>
-            <p>Former Chemical Engineer with passion for Data Science. Who currently has his sights set on a full-time data science position. Proficient knowledge in statistics, mathematics, Excel, VBA, MySQL , MongoDB and programming with Python and MATLAB. Experienced in using Jupyter Virtual Environment, HTML, CSS , JavaScript, Python libraries like Pandas, NumPy, SciPy, SQLalchemy and Flask Data Visualization packages such as Python’s Matplotlib. A quick learner who loves researching new technologies and acquiring new skills, enjoy tackling new challenges and finding solutions for new problems, highly adaptable, organized, detail-oriented with proven skills in customers service, marketing and team management. Currently expanding my programming and data analysis skills. </p>
-          </blockquote>
+          <div class="card">
+            <div class="row">
+              <div id="about-skill" class="carousel slide" data-ride="carousel" data-wrap="false">
+                <ol class="carousel-indicators">
+                  <li data-target="#about-skill" data-slide-to="0" class="active"></li>
+                  <li data-target="#about-skill" data-slide-to="1"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <blockquote>
+                    <h1>About Me</h1>
+                      <p>Former Chemical Engineer with passion for Data Science. Who currently has his sights set on a full-time data science position. Proficient knowledge in statistics, mathematics, Excel, VBA, MySQL , MongoDB and programming with Python and MATLAB. Experienced in using Jupyter Virtual Environment, HTML, CSS , JavaScript, Python libraries like Pandas, NumPy, SciPy, SQLalchemy and Flask Data Visualization packages such as Python’s Matplotlib. A quick learner who loves researching new technologies and acquiring new skills, enjoy tackling new challenges and finding solutions for new problems, highly adaptable, organized, detail-oriented with proven skills in customers service, marketing and team management. Currently expanding my programming and data analysis skills. </p>
+                    </blockquote>
+                  </div>
+                  <div class="carousel-item">
+                    <blockquote>
+                    <h1>Skills</h1>
+                      <p>Former Chemical Engineer with passion for Data Science. Who currently has his sights set on a full-time data science position. Proficient knowledge in statistics, mathematics, Excel, VBA, MySQL , MongoDB and programming with Python and MATLAB. Experienced in using Jupyter Virtual Environment, HTML, CSS , JavaScript, Python libraries like Pandas, NumPy, SciPy, SQLalchemy and Flask Data Visualization packages such as Python’s Matplotlib. A quick learner who loves researching new technologies and acquiring new skills, enjoy tackling new challenges and finding solutions for new problems, highly adaptable, organized, detail-oriented with proven skills in customers service, marketing and team management. Currently expanding my programming and data analysis skills. </p>
+                    </blockquote>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
         <div class="col-md-3">
+          <div class="card">
+            <h1>Info</h1>
             <ul>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
+              <p><i class="fas fa-map-marker-alt"></i> San Diego, CA, US</p>
+              <p><i class="fab fa-linkedin"></i>
+              <a href="https://linkedin.com/in/farhad-omidvar" target="_blank">Linkedin</a>
+              </p>
+              <p><i class="fab fa-github-square"></i>
+              <a href="https://github.com/farhadOmidvar" target="_blank">GitHub</a>
+              </p>
+              <p><i class="fas fa-envelope-square"></i>
+              <a href="mailto:contact@farhadomidvar.com" target="_blank">contact@farhadomidvar.com</a>
+              </p>
             </ul>
+          </div>
         </div>
-        
+      </div>
+    </div>
+  </div>
+    <div class="container-fluid" id="projects">
+      <div class="jumbotron">
+        <h1>Projects</h1>
+        <div class="row">
+          <div class="card-group">
+            <div class="card">
+              <a href="https://world-happiness-visualization.herokuapp.com/" target="_blank"><img class="card-img-top hovereffect" src="Resources/Images/world-happiness.png" alt="world happiness"></a>
+              <div class="card-body">
+                <h5 class="card-title">World Happiness</h5>
+                <p class="card-text">A Python Flask app respresenting world happiness from 2015-2017 using D3.js - Plotly.js and AnyChart.js to create visualization</p>
+                <small>Skills:<br> Python, Flask, SQL, SQLAlchemy, HTML, CSS, Bootstrap, JavaScript, Heroku</small><br>
+                <a href="https://github.com/farhadOmidvar/World-Happiness-Visualization" target="_blank">
+                  <small class="text-muted">GitHub Repository</small>
+                </a>
+              </div>
+            </div>
+            <div class="card">
+              <a href="http://farhadomidvar.com/D3-Data-Journalism/" target="_blank">
+                <img class="card-img-top hovereffect" src="Resources/Images/health.png" alt="Health Factors Demo">
+              </a>
+              <div class="card-body">
+                <h5 class="card-title">Health Factors Demographic</h5>
+                <p class="card-text">An interactive scatter plot, to explore the correlation between demographics and health risk factors in U.S. using D3.js</p>
+                <small>Skills:<br> HTML, CSS, JavaScript, Bootstrap</small><br>
+                <a href="https://github.com/farhadOmidvar/D3-Data-Journalism" target="_blank">
+                  <small class="text-muted">GitHub Repository</small>
+                </a>
+              </div>
+            </div>
+            <div class="card">
+              <a href="https://farhad-belly-button.herokuapp.com/" target="_blank">
+                <img class="card-img-top hovereffect" src="Resources/Images/biodiversity.png" alt="Bacteria Biodiversity">
+              </a>
+              <div class="card-body">
+                <h5 class="card-title">Bacteria Biodiversity Dashboard</h5>
+                <p class="card-text">An interactive dashboard to explore the Bacteria Biodiversity dataset, using Plotly.js to create visualizations</p>
+                <small>Skills:<br> Python, Pandas, Flask, SQLALchemy, SQL, HTML, CSS, Bootstrap,
+                JavaScript, Heroku</small><br>
+                <a href="https://github.com/farhadOmidvar/Belly-Button-Biodiversity">
+                  <small class="text-muted">GitHub Repository</small>
+                </a>
+              </div>
+            </div>
+            <div class="card">
+              <img class="card-img-top hovereffect" src="Resources/Images/mission-to-mars.png" alt="mission to mars">
+              <div class="card-body">
+                <h5 class="card-title">Mission to Mars</h5>
+                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                <small class="text-muted">GitHub Repository</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- <br> -->
+        <div class="row">
+          <div class="card-group">
+            <div class="card">
+              <img class="card-img-top hovereffect" src="Resources/Images/ufo.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">UFO Sightings</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <small class="text-muted">GitHub Repository</small>
+              </div>
+            </div>
+            <div class="card">
+              <img class="card-img-top hovereffect" src="Resources/Images/weather.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Weather Analysis</h5>
+                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                <small class="text-muted">GitHub Repository</small>
+              </div>
+            </div>
+            <div class="card">
+              <img class="card-img-top hovereffect" src="Resources/Images/311calls.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">San Diego 311 calls</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                <small class="text-muted">GitHub Repository</small>
+              </div>
+            </div>
+            <div class="card">
+              <img class="card-img-top hovereffect" src="Resources/Images/earthquake.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Earthquakes Visualization</h5>
+                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                <small class="text-muted">GitHub Repository</small>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
     
