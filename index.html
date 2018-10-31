@@ -30,11 +30,31 @@
             <a class="nav-link" href="#contact">Contact</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="">Resume</a>
+            <div data-toggle="modal" data-target="#resume">
+              <a class="nav-link" href="#resume">Resume</a>
+            </div>
           </li>
         </ul>
       </div>
     </nav>
+    <div class="modal fade" id="resume" tabindex="-1" role="dialog" aria-labelledby="resume" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Resume</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true" id="close-botton">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <embed src="Resources/Images/Farhad-Omidvar-Resume.pdf" frameborder="0" width="100%" height="550px">
+          </div>
+          <div class="modal-footer">
+            <a href="Resources/Images/Farhad-Omidvar-Resume.pdf" target="_blank" class="btn btn-outline-dark">Download</a>
+          </div>
+        </div>
+      </div>
+    </div>
     <div class="container-fluid banner">
       <div class= "banner-text text-center">
         <h1 id="name"></h1>
@@ -62,7 +82,7 @@
                   <div class="carousel-item active">
                     <blockquote>
                     <h1>About Me</h1>
-                      <p>Hi, I'm Farhad!<br>I'm a former Chemical Engineer with a passion for Data Science.I enjoy solving problems through data analyicts and visualisation, tackling new challenges, I'm highly adaptable, organized, detail-oriented with proven skills in customers service, marketing and team management.Currently I'm studing Data Science and Visualization Boot Camp at UC San Diego Extension and have my sights on full-time data science/analyst position.<br>Check out my <a href="#projects">projects</a> and Github Repos for some of projects I've worked on. Feel free to contect on LinkdIn or send me an email, if you want to discuss job opportunities and collaboration. Thanks for visiting my webpage!</p>
+                      <p>Hi, I’m Farhad!<br>I’m a former Chemical Engineer with a passion for Data Science. I enjoy solving problems through data analytics and visualization while tackling new challenges. I’m highly adaptable, organized, and detail-oriented with proven skills in customers service, marketing and team management. Currently I’m studying Data Science and Visualization at UC San Diego Extension and have my sights on a full-time data science/analyst position.<br>Check out my <a href="#projects">projects</a> and <a href="https://github.com/farhadOmidvar" target="_blank">GitHub repos</a> for projects I’ve worked on. Feel free to contact on <a href="https://linkedin.com/in/farhad-omidvar" target="_blank">LinkedIn</a> or send me an email, if you want to discuss job opportunities and/or collaborations. Thank you for visiting my webpage!</p>
                     </blockquote>
                   </div>
                   <div class="carousel-item">
@@ -113,7 +133,7 @@
               <a href="https://world-happiness-visualization.herokuapp.com/" target="_blank"><img class="card-img-top hovereffect" src="Resources/Images/world-happiness.jpg" alt="world happiness"></a>
               <div class="card-body">
                 <h4 class="card-title">World Happiness</h4>
-                <p class="card-text">A Python Flask app respresenting world happiness from 2015-2017 using D3.js - Plotly.js and AnyChart.js to create visualization</p>
+                <p class="card-text">A Python Flask app representing world happiness from 2015-2017 using D3.js - Plotly.js and AnyChart.js to create visualization</p>
                 <small>Skills:<br> Python, Flask, SQL, SQLAlchemy, HTML, CSS, Bootstrap, JavaScript, Heroku</small><br>
                 <a href="https://github.com/farhadOmidvar/World-Happiness-Visualization" target="_blank">
                   <small class="text-muted">GitHub Repository</small>
@@ -153,8 +173,8 @@
               </a>
               <div class="card-body">
                 <h4 class="card-title">Mission to Mars</h4>
-                <p class="card-text">A webpage to display mars information scraped from various sources, using Splinter, Beautiful Soup and MongoDB database</p>
-                <small>Skills:<br>Python, Flask, Jupyter Notebook, MongoDB, PyMongo, Pandas, Splinter, BeautifulSoap, HTML, CSS, Bootstrap, Heroku</small><br>
+                <p class="card-text">A webpage to display mars information scraped from various sources, using Splinter, BeautifulSoup and MongoDB database</p>
+                <small>Skills:<br>Python, Flask, Jupyter Notebook, MongoDB, PyMongo, Pandas, Splinter, BeautifulSoup, HTML, CSS, Bootstrap, Heroku</small><br>
                 <a href="https://github.com/farhadOmidvar/Mission_to_Mars" target="_blank">
                   <small class="text-muted">GitHub Repository</small>
                 </a>
@@ -184,8 +204,8 @@
               </a>
               <div class="card-body">
                 <h4 class="card-title">Weather Analysis</h4>
-                <p class="card-text">A webpage dispaly analysis of the weather across the world based on proximity to the eqautor using Matplotlib to create visualization</p>
-                <small>Skills:<br>Python, Jupyter Notebook, Pandas, Numpy, OpenWeather API, Matplotlib, HTML, CSS, Bootstrap
+                <p class="card-text">A webpage display analysis of the weather across the world based on proximity to the equator using Matplotlib to create visualization</p>
+                <small>Skills:<br>Python, Jupyter Notebook, Pandas, NumPy, OpenWeather API, Matplotlib, HTML, CSS, Bootstrap
                 </small><br>
                 <a href="https://github.com/farhadOmidvar/WeatherPy" target="_blank">
                   <small class="text-muted">GitHub Repository (Analysis) / </small>
@@ -202,7 +222,7 @@
               <div class="card-body">
                 <h4 class="card-title">San Diego 311 calls</h4>
                 <p class="card-text">Analysis of San Diego 311 calls using data from City of San Diego, US Census Bureau and Matplotlib, Gmaps to create visualization </p>
-                <small>Skills:<br>Python,Jupyter Notebook, Pandas, Scipy, Numpy,
+                <small>Skills:<br>Python,Jupyter Notebook, Pandas, SciPy, NumPy,
                 Geaocoding API, Gmaps, Regex</small><br>
                 <a href="https://github.com/farhadOmidvar/311-San-Diego" target="_blank">
                   <small class="text-muted">GitHub Repository</small>

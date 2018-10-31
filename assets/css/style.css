@@ -30,8 +30,6 @@ body,html {
 
 .navbar-custom .navbar-nav .nav-link {
     color: #ffffff;
-   /* padding-left: 10px;
-    padding-right: 10px;*/
     font-size: 13px;
     font-weight: 400;
     margin-left: 40px;
@@ -43,6 +41,22 @@ body,html {
 .navbar-custom .nav-item:hover .nav-link,
 .navbar-custom .nav-item:focus .nav-link{
     color: #F1574D;
+}
+
+.modal-content {
+    border-radius: .2rem;
+    background-color: #e9ecef;
+}
+
+.modal-body {
+	padding: 0 5px;
+}
+
+.modal-footer {
+
+    padding: .3rem;
+    border: none;
+    margin: auto;
 }
 
 .banner {
