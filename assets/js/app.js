@@ -29,7 +29,7 @@ var j = 1;
     }
 
     function typer1(){
-        var title = "Data Analyst";
+        var title = "Senior Business Intelligence Analyst";
         if( j <= title.length ){ 
             var txt2 = title.substring(0,j);
             document.getElementById("title").innerHTML = txt2;
